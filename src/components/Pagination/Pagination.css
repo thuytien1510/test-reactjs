@@ -1,0 +1,14 @@
+.page {
+    text-align: center;
+}
+
+.page button {
+    background-color: #fff;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.page span {
+    font-size: 30px;
+}
