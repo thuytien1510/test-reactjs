@@ -1,0 +1,101 @@
+:root {
+    --color: #5cb85c;
+}
+
+.list {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.top,
+.infor,
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+h1 {
+    color: var(--color);
+}
+
+.text p {
+    color: gray;
+}
+
+.top button {
+    padding: 0px 20px;
+    height: 40px;
+    font-size: 16px;
+    color: var(--color);
+    background-color: #ffff;
+    border: 1px solid var(--color);
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    outline: none;
+}
+
+.top button:hover {
+    background-color: lightgreen;
+    color: #ffff;
+}
+
+.post {
+    padding: 10px 0;
+}
+
+.post p {
+    color: gray;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.read {
+    height: 40px;
+    font-size: 16px;
+    background-color: #ffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: gray;
+}
+
+.read:hover {
+    color: var(--color);
+}
+
+.tag {
+    background-color: #ffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    color: gray;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.tag:hover {
+    background-color: rgb(217, 247, 217);
+}
+
+.bottom {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
